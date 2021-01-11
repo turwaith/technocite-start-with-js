@@ -1,0 +1,7 @@
+ol{
+    list-style-type: lower-latin;
+}
+ul{
+    list-style: none;
+    margin-left: 30px;
+}
