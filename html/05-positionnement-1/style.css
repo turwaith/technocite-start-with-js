@@ -1,0 +1,30 @@
+body{
+    background-color: gainsboro;
+    margin: 0;
+}
+#title{
+    margin: 0;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 4em;
+}
+.wrapper{
+    width: 960px;
+    margin: 0 auto;
+    background-color:#FFC75F;
+}
+hr{
+    width: 300px;
+    height: 5px;
+    border: none;
+    background: #FF9671;
+}
+.box{
+    margin: 20px 40px;
+    display: inline-block;
+}
+.box img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
