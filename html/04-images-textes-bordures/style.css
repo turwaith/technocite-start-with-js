@@ -1,0 +1,40 @@
+:root{
+    --main-width : 300px;
+}
+
+div{
+    font-size: 13px;
+}
+h1{
+    font-size: 4rem;
+    font-weight: 500;
+    text-transform: capitalize;
+    color: teal;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-decoration: underline gold;
+    text-align: center;
+    font-style: italic;
+}
+
+div p{
+    font-size: 1.15rem;
+    width: var(--main-width);
+    margin: 15px auto;
+    text-align: justify;    
+    padding: 20px;
+    background:gainsboro;
+    border: 5px solid steelblue;
+    border-radius: 10px;
+}
+
+a{
+    text-decoration: none;
+}
+
+img{
+    display: block;
+    margin: 0 auto;
+    width: var(--main-width);
+    height: var(--main-width);
+    border-radius: 50%;
+}
