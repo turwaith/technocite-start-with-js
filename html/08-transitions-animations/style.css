@@ -1,0 +1,52 @@
+button
+{
+    border: none;
+    padding: 10px 21px;
+    border-radius: 3px;
+    background-color: teal;
+    color: white;
+    font-weight: bold;
+    display: block;
+    margin: 0 auto;    
+    transition: all ease-in-out 1s;
+    transform: translateX(0);
+    opacity: 1;
+    transition: all ease-in-out 1.2s;
+}
+button:hover{
+    background-color: indigo;
+    /*box-shadow: 0px 19px 38px rgba(0, 0, 0, 30),
+                0px 15px 12px rgba(0, 0, 0, 22);*/
+    transform: translateX(120px);
+    opacity: 0;
+}
+.circle{
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    background-color: red;
+    animation: animOne 4s ease-in-out  infinite  ;
+}
+
+@keyframes animOne{
+    0%{
+        transform: translateX(0);
+        background-color: red;
+    }
+    25%{
+        transform: translateX(200px);
+        background-color: green;
+    }
+    50%{
+        transform: translateX(400px);
+        background-color: fuchsia;
+    }
+    75%{
+        transform: translateX(600px);
+        background-color: gold;
+    }
+    100%{
+        transform: translateX(800px);
+        background-color: blue;
+    }
+}
