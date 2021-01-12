@@ -1,0 +1,33 @@
+body{
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-image: url(photo.jpg);
+    background-size: cover;
+    color: white;
+}
+
+h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+h1::first-letter{
+    font-size: 4em;
+}
+button
+{
+    border: none;
+    padding: 10px 21px;
+    border-radius: 3px;
+    background-color: teal;
+    color: white;
+    font-weight: bold;
+    display: block;
+    margin: 0 auto;    
+}
+button:hover{
+    background-color: indigo;
+    box-shadow: 3px 3px 4px white;
+}
+button:focus{
+    outline: none;
+}
