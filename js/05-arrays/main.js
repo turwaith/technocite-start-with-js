@@ -8,3 +8,14 @@ console.log("Liste des valeurs de [names]");
 
 for(var i = 0, size = names.length; i < size; i++)
     console.log(names[i]);
+
+names.push("turwaith"); // ajoute à la fin
+names.unshift("marie"); // ajoute au début
+
+console.log(names);
+
+names.shift() // retire au début
+names.pop(); // retire à la fin
+
+
+console.log(names);
