@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    button{
+      /* margin: 50px; */
+      background-color: #e6c7;
+      border-radius: 5px;
+      padding: 15px;
+      border: 0;
+      text-transform: uppercase;
+    }
+    .flex{
+      display: flex;
+      align-items: center;
+    }
+    .flex > *{
+      margin-right: 20px;
+    }
+  </style>
+  <title>Rectangle parfait</title>
+</head>
+<body>
+    <div class="flex">
+      <div>
+        <label for="largeur">Largeur:</label>
+        <input type="text" name="largeur" id="largeur">
+      </div>
+      <div>
+        <label for="longueur">Longueur:</label>
+        <input type="text" name="longueur" id="longueur">
+      </div>
+      <div>
+        <label for="couleur">Couleur:</label>
+        <input type="color" name="couleur" id="couleur">
+      </div>
+      <button id="submit">Créer un rectangle</button>
+      <button id="reset">Annuler</button>
+    </div>
+
+
+    <!-- <button id="btn">Clique moi</button> -->
+    <div id="box"></div>
+    <script src="main.js"></script>
+</body>
+</html>
